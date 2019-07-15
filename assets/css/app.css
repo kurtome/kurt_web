@@ -1,0 +1,18 @@
+/* This file is for your main application css. */
+
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Roboto+Slab:700|Roboto:300&display=swap');
+
+.menu-text {
+  @apply font-ui uppercase text-2xl;
+}
+
+p {
+  @apply font-body;
+}

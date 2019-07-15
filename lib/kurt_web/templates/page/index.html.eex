@@ -1,0 +1,17 @@
+<section class="ml-32">
+  <ul class="">
+    <li>
+      <p class="menu-text">Who am I?</p>
+      <p class="ml-8 mb-8">Hello asdlkjflasjf lkjasdf </p>
+    </li>
+    <li>
+      <p class="menu-text">Work</p>
+    </li>
+    <li>
+      <p class="menu-text">Projects</p>
+    </li>
+    <li>
+      <p class="menu-text">Other</p>
+    </li>
+  </ul>
+</section>
