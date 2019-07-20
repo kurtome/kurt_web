@@ -19,6 +19,8 @@ module.exports = {
     require('postcss-import'),
     require('precss'),
     require('tailwindcss'),
+    require('postcss-nesting'),
+    require('postcss-color-mod-function'),
     require('autoprefixer'),
     ...process.env.NODE_ENV === 'production'
       ? [purgecss]

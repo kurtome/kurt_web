@@ -4,7 +4,8 @@ module.exports = {
     fontFamily: {
       'title': ['Averia Serif Libre', 'serif'],
       'ui': ['Roboto Slab', 'serif'],
-      'body': ['Roboto', 'sans-serif']
+      'body': ['Roboto', 'sans-serif'],
+      'code': ['Roboto Mono', 'sans-serif']
     }
   },
   variants: {},

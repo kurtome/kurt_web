@@ -1,17 +1,36 @@
-<section class="ml-32">
-  <ul class="">
-    <li>
-      <p class="menu-text">Who am I?</p>
-      <p class="ml-8 mb-8">Hello asdlkjflasjf lkjasdf </p>
-    </li>
-    <li>
-      <p class="menu-text">Work</p>
-    </li>
-    <li>
-      <p class="menu-text">Projects</p>
-    </li>
-    <li>
-      <p class="menu-text">Other</p>
-    </li>
-  </ul>
-</section>
+<div class="flex align-stretch w-full min-h-screen p-4 md:p-8">
+  <div class="flex-grow">
+    <h1 class="font-title text-5xl md:text-5xl text-center md:text-right leading-none tracking-tight mr-4 md:mr-8">
+      Kurtis Melby
+    </h1>
+    <div class="mt-8">
+      <div class="flex justify-end">
+        <ul class="menu">
+          <li>
+            <p>Who am I?</p>
+          </li>
+          <li>
+            <p>Work</p>
+          </li>
+          <li>
+            <p>Projects</p>
+          </li>
+          <li>
+            <p>asdf,.w;lkjr</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="">
+    <div class="h-full w-px bg-black opacity-50"></div>
+  </div>
+  <div class="flex-grow">
+    <h1 class="font-title text-5xl md:text-5xl text-center md:text-left leading-none tracking-tight ml-4 md:ml-8 opacity-0">
+      Kurtis Melby
+    </h1>
+    <div class="mt-4 p-4 md:p-8">
+      <p class="font-code text-sm">^[kK]urt(is)? ((T. |Todd )?[mM]elby)?</p>
+    </div>
+  </div>
+</div>
