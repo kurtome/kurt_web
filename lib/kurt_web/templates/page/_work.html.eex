@@ -1,0 +1,29 @@
+<div class="">
+  <p>
+    <h3>Gimlet (and Spotify) 2​ 018-Current, Lead Software Engineer</h3>
+    - Built and launched a brand new public website and internal CMS from the ground up
+    using modern web tools like Phoenix Framework, Stimulus.js and Bulma CSS.
+    - Engineered a data warehouse solution for analyzing our hundreds of millions of listener
+    download logs using BigQuery SQL and Periscope Data to create performance tracking and audience insights dashboards used across company.
+  </p>
+  <p>
+    Google ​2015-2018, Software Engineer
+    - Android app development on Google Lens, including working with ML models on device
+    and custom UI prototyping. Server and data pipeline development on Google Play Books.
+  </p>
+  <p>
+    Oyster Books​ ​2014-2015, Software Engineer
+    - Built a data ingestion pipeline for all incoming book data from major publishers.
+    - Maintenance and feature worker on Django servers and Postgres database.
+    Yodle, Inc.​ ​2012-2014, Software Engineer / Lead Software Engineer
+    - Promoted to technical lead for a small team doing fullstack feature work in Java, Scala
+    and Angular web development on a microservices architecture. MicroEdge LLC​ 2​ 010-2012 December, Junior Software Developer / Software Developer
+  </p>
+  <p>
+    TECHNICAL SKILLS
+    Areas of Focus
+    Server programming • Full stack web development • HTML, Javascript, CSS • Data analytics • RESTful APIs • Distributed computing • Functional programming • MapReduce • ML Models • Android
+    Technologies
+    Elixir / Phoenix Framework • ReactJS • Scalding • Django • ProtoBuf / Thrift • Android • Postgres DB • Spring Framework
+  </p>
+</div>

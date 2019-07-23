@@ -13,33 +13,34 @@ body, html {
   li {
     position: relative;
 
-    &:before {
-      transition: opacity 300ms ease-in-out;
-      background: linear-gradient(90deg, transparent, color-mod(theme('colors.teal.400') a(30%)));
-      content: '';
-      display: block;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      opacity: 0;
-      width: 100%;
-    }
-    &:hover {
-      &:before {
-        opacity: 1;
-        transition: opacity 300ms ease-in-out;
-      }
-    }
-
     @apply px-4 py-1;
     @screen md {
       @apply px-8 py-2;
     }
 
 
-    p {
-      @apply font-title lowercase text-2xl tracking-wider text-right;
+    a {
+      @apply block font-title lowercase text-2xl tracking-wider text-right;
+
+
+      &:before {
+        transition: opacity 300ms ease-in-out;
+        background: linear-gradient(90deg, transparent, color-mod(theme('colors.teal.400') a(30%)));
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        width: 100%;
+      }
+      &:hover, &.selected {
+        &:before {
+          opacity: 1;
+          transition: opacity 300ms ease-in-out;
+        }
+      }
     }
   }
 }

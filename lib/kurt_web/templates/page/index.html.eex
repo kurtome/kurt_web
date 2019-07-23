@@ -1,36 +1,46 @@
 <div class="flex align-stretch w-full min-h-screen p-4 md:p-8">
-  <div class="flex-grow">
-    <h1 class="font-title text-5xl md:text-5xl text-center md:text-right leading-none tracking-tight mr-4 md:mr-8">
+  <div class="flex-1">
+    <h1 class="font-title text-5xl md:text-5xl text-right leading-none tracking-tight mr-4 md:mr-8">
       Kurtis Melby
     </h1>
     <div class="mt-8">
       <div class="flex justify-end">
         <ul class="menu">
           <li>
-            <p>Who am I?</p>
+            <a href="/whoami" class="<%= selected_css_class(@conn, "/whoami") %>">
+              Who am I?
+            </a>
           </li>
           <li>
-            <p>Work</p>
+            <a href="/work" class="<%= selected_css_class(@conn, "/work") %>">
+              Work
+            </a>
           </li>
           <li>
-            <p>Projects</p>
+            <a href="/projects" class="<%= selected_css_class(@conn, "/projects") %>">
+              Projects
+            </a>
           </li>
           <li>
-            <p>asdf,.w;lkjr</p>
+            <a href="/etcetera" class="<%= selected_css_class(@conn, "/etcetera") %>">
+              ;asl,dkjf./al
+            </a>
           </li>
         </ul>
       </div>
     </div>
   </div>
   <div class="">
-    <div class="h-full w-px bg-black opacity-50"></div>
+    <div class="h-full w-px bg-black"></div>
   </div>
-  <div class="flex-grow">
-    <h1 class="font-title text-5xl md:text-5xl text-center md:text-left leading-none tracking-tight ml-4 md:ml-8 opacity-0">
+  <div class="flex-1 hidden md:block">
+    <%# <h1 class="font-title text-5xl md:text-5xl text-center md:text-left leading-none tracking-tight ml-4 md:ml-8 opacity-0">
       Kurtis Melby
-    </h1>
-    <div class="mt-4 p-4 md:p-8">
-      <p class="font-code text-sm">^[kK]urt(is)? ((T. |Todd )?[mM]elby)?</p>
+    </h1> %>
+    <div class="p-4 md:p-8">
+      <%= if assigns[:content_template] do %>
+        <%= render(__MODULE__, @content_template, assigns) %>
+      <% end %>
     </div>
   </div>
 </div>

@@ -17,6 +17,7 @@ defmodule KurtWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+    get "/:slug", PageController, :index
   end
 
   # Other scopes may use custom stacks.
