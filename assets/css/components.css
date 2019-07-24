@@ -1,11 +1,6 @@
 
-
-p {
-  @apply font-body;
-}
-
 body, html {
-  @apply bg-orange-100;
+  @apply bg-orange-100 font-body;
 }
 
 .menu {

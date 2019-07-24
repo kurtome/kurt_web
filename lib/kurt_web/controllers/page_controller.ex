@@ -10,7 +10,7 @@ defmodule KurtWeb.PageController do
   def content_template(params) do
     case params["slug"] do
       "whoami" -> "_whoami.html"
-      "work" -> "_work.html"
+      "résumé" -> "_resume.html"
       "projects" -> "_projects.html"
       "etcetera" -> "_etcetera.html"
       _ -> nil

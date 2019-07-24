@@ -1,0 +1,13 @@
+<h3 class="text-lg font-bold">
+  <%= @item.name %>
+</h3>
+<p class="text-sm opacity-50">
+  <%= @item.sub_head %>
+</p>
+<ul class="list-disc text-sm">
+  <%= for line <- @item.lines do %>
+    <li>
+      <%= line %>
+    </li>
+  <% end %>
+</ul>

@@ -1,0 +1,117 @@
+<div>
+  <h2 class="font-title text-xl">PROFESSIONAL EXPERIENCE</h2>
+  <div class="mt-4">
+    <%= render(
+      __MODULE__,
+      "_work_history_item.html",
+      item: %{
+        name: "Serial Box",
+        sub_head: "2019 - current, Senior Software Engineer",
+        lines: []
+      }
+    ) %>
+  </div>
+  <div class="mt-4">
+    <%= render(
+    __MODULE__,
+    "_work_history_item.html",
+    item: %{
+      name: "Gimlet (and Spotify)",
+      sub_head: "2​018 - 2019, Lead Software Engineer",
+      lines: [
+        """
+        Built and launched a brand new public website and internal
+        CMS from the ground up using modern web tools like
+        Phoenix Framework, Stimulus.js and Bulma CSS.
+        """,
+        """
+        Engineered a data warehouse solution for analyzing our hundreds of
+        millions of listener download logs using BigQuery SQL and Periscope Data
+        to create performance tracking and audience insights dashboards
+        used across company.
+        """
+      ]
+    }
+  ) %>
+  </div>
+  <div class="mt-4">
+    <%= render(
+      __MODULE__,
+      "_work_history_item.html",
+      item: %{
+        name: "Google",
+        sub_head: "2015 - 2018, Software Engineer",
+        lines: [
+          """
+          Android app development on Google Lens, including working with ML models on device
+          and custom UI prototyping.
+          """,
+          """
+          Server and data pipeline development on Google Play Books.
+          """
+        ]
+      }
+    ) %>
+  </div>
+  <div class="mt-4">
+    <%= render(
+      __MODULE__,
+      "_work_history_item.html",
+      item: %{
+        name: "Oyster Books",
+        sub_head: "2014 - 2015, Server Software Engineer",
+        lines: [
+          """
+          Built a data ingestion pipeline for all incoming book data from major publishers.
+          Maintenance and feature worker on Django servers and Postgres database.
+          """
+        ]
+      }
+    ) %>
+  </div>
+  <div class="mt-4">
+    <%= render(
+      __MODULE__,
+      "_work_history_item.html",
+      item: %{
+        name: "Yodle Inc.",
+        sub_head: "2012-2014, Lead Software Engineer",
+        lines: [
+          """
+          Promoted to technical lead for a small team doing fullstack feature work in Java, Scala
+          and Angular web development on a microservices architecture.
+          """
+        ]
+      }
+    ) %>
+  </div>
+  <div class="mt-4">
+    <%= render(
+      __MODULE__,
+      "_work_history_item.html",
+      item: %{
+        name: "MicroEdge LLC​",
+        sub_head: "2010 - 2012, Junior Software Developer / Software Developer",
+        lines: [
+          """
+          ASd
+          """
+        ]
+      }
+    ) %>
+  </div>
+  <h2 class="mt-8 font-title text-xl">EDUCATION</h2>
+  <h3 class="mt-2 font-bold">
+    University of Minnesota - Twin Cities, Institute of Technology
+  </h3>
+  <p class="text-sm">
+    Graduated 2010<br>
+    Bachelor of Science in Computer Science, Focus on Artificial Intelligence
+  </p>
+  <h3 class="mt-2 font-bold">
+    Hong Kong University of Science and Technology
+  </h3>
+  <p class="text-sm">
+    Spring 2009 exchange
+  </p>
+</div>
