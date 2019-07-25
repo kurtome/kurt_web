@@ -15,11 +15,16 @@ p {
 }
 
 .menu {
-  @apply flex flex-col justify-between h-64;
+  @apply flex flex-col justify-between;
+
+  @screen md {
+    @apply h-64;
+  }
+
   li {
     position: relative;
 
-    @apply px-4 py-1;
+    @apply px-4 py-1 mt-5;
     @screen md {
       @apply px-8 py-2;
     }
