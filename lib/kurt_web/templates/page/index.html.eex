@@ -7,22 +7,22 @@
       <div class="flex justify-end">
         <ul class="menu">
           <li>
-            <a href="/whoami" class="<%= selected_css_class(@conn, "/whoami") %>">
+            <a href="/whoami" class="<%= selected_css_class(@conn, "/whoami", "selected") %>">
               Who am I?
             </a>
           </li>
           <li>
-            <a href="/résumé" class="<%= selected_css_class(@conn, "/résumé") %>">
+            <a href="/résumé" class="<%= selected_css_class(@conn, "/résumé", "selected") %>">
               Résumé
             </a>
           </li>
           <li>
-            <a href="/projects" class="<%= selected_css_class(@conn, "/projects") %>">
+            <a href="/projects" class="<%= selected_css_class(@conn, "/projects", "selected") %>">
               Projects
             </a>
           </li>
           <li>
-            <a href="/etcetera" class="<%= selected_css_class(@conn, "/etcetera") %>">
+            <a href="/etcetera" class="<%= selected_css_class(@conn, "/etcetera", "selected") %>">
               ;asl,dkjf./al
             </a>
           </li>
