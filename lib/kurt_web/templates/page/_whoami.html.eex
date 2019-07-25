@@ -1,19 +1,40 @@
 <div class="">
-  <p>Who am I?</p>
-  <p>Currently I'm a Minneapolis kid stuck in Brooklyn.</p>
-  <p>That's my dog -></p>
+  <h2 class="ui-header mb-2">About Me</h2>
   <p>
-    EDUCATION
-    University of Minnesota-Twin Cities, Institute of Technology ​Graduated 2010 Bachelor of Science in Computer Science, Focus on Artificial Intelligence
-    Hong Kong University of Science and Technology​ ​Spring 2009 exchange
+    I'm a Minneapolis born nerd, currently stuck in Brooklyn
+    working in as a software developer. If you're interested in my
+    professional work, checkout my <a href="/résumé">résumé</a>.
   </p>
-  <h3 class="mt-4 text-lg">
-    Technical Skills
-  </h3>
-  <p class="text-sm">
-    Areas of Focus
-    Server programming • Full stack web development • HTML, Javascript, CSS • Data analytics • RESTful APIs • Distributed computing • Functional programming • MapReduce • ML Models • Android
-    Technologies
-    Elixir / Phoenix Framework • ReactJS • Scalding • Django • ProtoBuf / Thrift • Android • Postgres DB • Spring Framework
+  <br>
+  <p>
+    I also like to do a lot of hobbyist software work, including dabbling
+    in video game creation. When I'm not being a nerd for work I am also a
+    nerd for fun.
   </p>
+  <br>
+  <h2 class="ui-header mb-2">Find Me</h2>
+  <p>
+    On GitHub: <a class="font-code" href="https://github.com/kurtome" target="_blank">kurtome</a>
+  </p>
+  <p>
+    On Twitter: <a class="font-code" href="https://twitter.com/kurtome" target="_blank">@kurtome</a>
+  </p>
+  <p>
+    You can email me: &nbsp;<span class="font-code">kurt@melby.me</span>
+  </p>
+  <h2 class="ui-header mt-6 mb-2">Photo</h2>
+  <div class="flex items-center justify-between">
+    <p >that me</p>
+    <p >&rarr;</p>
+    <figure class="w-48">
+      <img src="https://lh3.googleusercontent.com/knaG40dmKfnG4cBEcLqKX3vHo7hCyFB4Wk8o0ZjGv_s-Zj08jIkpEO8O91qzgpV3NjiKmJhicvHwt2nxT9iX4shfxtN98IkAgdfWyctpmg7ojSfEMZQWQs6pO_Og1ucADUbi4SNHPWTXzv64Yyzthp6zzpyGvIuaZOU5hFBbSRpfHjt2qXXW2snH5u2POaa2GIB8INMZDJUoF_FKhuekEI7LRO_97M9TC_-3mpcKp8pg1omDbNyY8nF585Xo0Q8VsFlZOZo2B8UlrpCXqd9aXTwqu5CqA0yFJrCMQ7NBvzx5VEloUq0qTraYtXAGuQPAcCOmG8p3Ec63HVjjQwL2LBzkFEAWrzeoNFuX5Q7cWxaVha5zQA7ruqoQMh48p4g9xms470oLrgD2L4H5-hz_4fivtHexPrE-tlHsAwtGY6ICQaDfeQRRT5R4WN4rXDdnF6oMiRaqQNmAvTd5sVtTBcNrmdtu8RCE2YbsdPTfyL089EzEBHNmtIrDMKE6nTeQ9dKTmnaYAqc1nbPb1RMTjc7Z4e4-PWheQmF5V1e9bCukPtS5D_OrqVyBrDAG8HlokrN_TAVOZ-AdSxt9TJ5NHJwS80LrtBNuhiTTUkV8I0WG4tOVha-LH8GlZdl6pWjQPRC6XF0l8rXn8hhTNJqXX-1RxgrkWbpz=s1514-no">
+    </figure>
+  </div>
+  <div class="mt-8 flex items-center justify-between">
+    <figure class="w-48">
+      <img src="https://lh3.googleusercontent.com/x_upJCe-AwOnqrXhFKF7zXwReSm5ha1zlpfbR7zmU0SnOS7bpx5JYwlvNmettNe85XWpeaxxiVJcCyDBAF37tCLdRYpU79GpMc6coNjKPKqGe-L3xQ6TPnCe63DNaReiLer_dQdOEuBYEVi9M3ktr7o__3-jlph_2rDnpaqxgE_oRNJeLGrn1Onyumufw-CuixnbKSNXabxqSNGkoO2P2-0GnThdwbHTqjc4JuK46h3PDl7rwQtA0_f-hScSR-CCh1t0-zzSBlyGIOTsT6V9zFQqv3JEyQwmtIWN2CHjQzljhdkrPDqK30z-2HexnUjboCqHXiqXIXoAhTq3dtDPPrnJ3GMr4z85LTzl9Gr6aRnSxx6xfbGXAr7DKQpHv5oRe-XtZ56_6HMMVOy4XC0tBVGV_6dpd9k0BC4ca0FCvSuDrJXN10w2oiiCdSNtQQnXVv7rI14Wmk4UL6k_RcHNcFcroLif-KJbwLmVE6pvtrL961xvCWn4LX6XtsWbSUd8D18Jw2LJVnjQDLfDfiWa3csV_qVb47xBmrSjYu8cZJtIvasmepPsoG09yPuu0eGSKCWZ71W4kH3g7t-znJbjDqynOVJk4STzfb2Cg6sCuy6N9D69M9LJLJdV9qDE7wMJ0R8v38g03c8o4jMPpeFUl_UXjeoV7yhAlUjXAIcSAWTlOhnGtoDVHr810vnmrLjAnD3BqzYdB7sVp6fOI4_fWaqRHA=s613-no">
+    </figure>
+    <p class="">&larr;</p>
+    <p class="">that my dog</p>
+  </div>
 </div>

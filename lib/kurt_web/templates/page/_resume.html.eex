@@ -27,16 +27,17 @@
         %{
           head: "Lead Software Engineer",
           lines: [
-            """
-            Built and launched a brand new public website and internal
-            CMS from the ground up using modern web tools like
+            ~e"""
+            Built and launched a brand new public website,
+            <a href="https://gimletmedia.com" target="_blank">gimletmedia.com</a>,
+            and internal CMS from the ground up using modern web tools like
             Phoenix Framework, Stimulus.js and Bulma CSS.
             """,
             """
             Engineered a data warehouse solution for analyzing our hundreds of
-            millions of listener download logs using BigQuery SQL and Periscope Data
+            millions of listener downloads using BigQuery SQL and Periscope Data
             to create performance tracking and audience insights dashboards
-            used across company.
+            used across the company.
             """
           ]
         }
@@ -57,7 +58,9 @@
             lines: [
               """
               Android app development on Google Lens, including working with ML models on device
-              and custom UI prototyping.
+              and custom UI prototyping. The Camera app feature we prototyped was eventually launched
+              on the Pixel 3, allowing users to use their camera to do passive object recognition
+              on device.
               """
             ]
           },

@@ -10,18 +10,6 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
 
   // Include any special characters you're using in this regular expression
   defaultExtractor: content => content.match(/[A-Za-z0-9-_:/]+/g) || []
-  // // Include any special characters you're using in this regular expression
-  // extractors: [
-  //   {
-  //     extractor: class PurgeFromJs {
-  //       static extract(content) {
-  //         // return array of css selectors
-  //         return content.match(/[A-Za-z0-9-_:/]+/g) || []
-  //       }
-  //     },
-  //     extensions: ["html", "html.eex"]
-  //   }
-  // ]
 
 })
 

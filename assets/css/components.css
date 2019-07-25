@@ -3,6 +3,17 @@ body, html {
   @apply bg-orange-100 font-body;
 }
 
+p {
+  a {
+    @apply text-teal-700 font-bold;
+    transition: opacity 300ms ease-in-out;
+    &:hover {
+      transition: opacity 300ms ease-in-out;
+      @apply opacity-75;
+    }
+  }
+}
+
 .menu {
   @apply flex flex-col justify-between h-64;
   li {
@@ -45,5 +56,14 @@ body, html {
 }
 
 .sub-header {
-  @apply italic opacity-50;
+  @apply italic opacity-75;
+
+  a {
+    @apply text-teal-700 font-bold;
+    transition: opacity 300ms ease-in-out;
+    &:hover {
+      transition: opacity 300ms ease-in-out;
+      @apply opacity-75;
+    }
+  }
 }
