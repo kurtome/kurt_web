@@ -1,13 +1,13 @@
 <div>
-  <p class="text-sm">
-    I'm a polygot programmer and a bit of a jack-of-all-trades. I've done lots and lots of
+  <p class="">
+    I'm a polyglot programmer and a bit of a jack-of-all-trades. I've done lots and lots of
     backend and frontend web server programming in Java, Scala, Elixir and Python.
     Additionally I've done worked on "big data" pipelines, Android apps, and Unity games.
     I also know enough Javascript to know how to get things done, how to avoid the pitfalls
     and to know I don't love it.
   </p>
-  <h2 class="mt-4 ui-header">Professional Experience</h2>
-  <div class="mt-4">
+  <h2 class="mt-8 ui-header">Professional Experience</h2>
+  <div class="mt-6">
     <%= render(
       __MODULE__,
       "_work_history_item.html",
@@ -23,7 +23,7 @@
       }
     ) %>
   </div>
-  <div class="mt-4">
+  <div class="mt-6">
     <%= render(
     __MODULE__,
     "_work_history_item.html",
@@ -52,7 +52,7 @@
     }
   ) %>
   </div>
-  <div class="mt-4">
+  <div class="mt-6">
     <%= render(
       __MODULE__,
       "_work_history_item.html",
@@ -85,7 +85,7 @@
       }
     ) %>
   </div>
-  <div class="mt-4">
+  <div class="mt-6">
     <%= render(
       __MODULE__,
       "_work_history_item.html",
@@ -106,7 +106,7 @@
       }
     ) %>
   </div>
-  <div class="mt-4">
+  <div class="mt-6">
     <%= render(
       __MODULE__,
       "_work_history_item.html",
@@ -145,7 +145,7 @@
       }
     ) %>
   </div>
-  <div class="mt-4">
+  <div class="mt-6">
     <%= render(
       __MODULE__,
       "_work_history_item.html",
@@ -167,17 +167,17 @@
     ) %>
   </div>
   <h2 class="mt-8 ui-header">EDUCATION</h2>
-  <h3 class="mt-4 font-bold">
+  <h3 class="mt-6 text-lg font-bold">
     University of Minnesota - Twin Cities, Institute of Technology
   </h3>
-  <p class="text-sm">
-    <span class="sub-header"> Graduated 2010</span><br>
+  <p class="">
+    <span class="opacity-50"> Graduated 2010</span><br>
     Bachelor of Science in Computer Science, Focus on Artificial Intelligence
   </p>
-  <h3 class="mt-4 font-bold">
+  <h3 class="mt-6 text-lg font-bold">
     Hong Kong University of Science and Technology
   </h3>
-  <p class="text-sm sub-header">
+  <p class="opacity-50">
     Spring 2009 exchange
   </p>
 </div>

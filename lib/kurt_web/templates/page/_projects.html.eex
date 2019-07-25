@@ -1,6 +1,5 @@
 <div class="">
-  <h2 class="ui-header mb-1">Code</h2>
-  <p class="text-sm mb-4">Thinkgs I work on things other than work, occasionally.</p>
+  <p class="mb-6">Things I work on things other than work, occasionally.</p>
   <%= render(__MODULE__, "_project_list.html", projects: [
     %{
       name: "kurt.melby.me",
@@ -41,7 +40,7 @@
       """
     },
     %{
-      name: "Etch",
+      name: "etch",
       url: "https://play.google.com/store/apps/details?id=kurtome.etch.app",
       duration: "2014",
       description:
@@ -58,7 +57,7 @@
       """
     },
     %{
-      name: "Bricked",
+      name: "bricked",
       url: "http://kurtome.github.io/Bricked/",
       duration: "2012",
       description:
@@ -75,7 +74,7 @@
       """
     },
     %{
-      name: "TagJumper",
+      name: "tag-jumper",
       url: "https://github.com/kurtome/tag-jumper",
       duration: "2012",
       description:

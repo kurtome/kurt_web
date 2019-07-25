@@ -5,7 +5,19 @@ body, html {
 
 p {
   a {
-    @apply text-teal-700 font-bold;
+    @apply text-teal-700;
+    transition: opacity 300ms ease-in-out;
+    &:hover {
+      transition: opacity 300ms ease-in-out;
+      @apply opacity-75;
+    }
+  }
+}
+
+h2, h3, h4 {
+
+  a {
+    @apply text-teal-700;
     transition: opacity 300ms ease-in-out;
     &:hover {
       transition: opacity 300ms ease-in-out;
@@ -57,18 +69,5 @@ p {
 }
 
 .ui-header {
-  @apply font-ui text-2xl tracking-wide lowercase font-bold;
-}
-
-.sub-header {
-  @apply italic opacity-75;
-
-  a {
-    @apply text-teal-700 font-bold;
-    transition: opacity 300ms ease-in-out;
-    &:hover {
-      transition: opacity 300ms ease-in-out;
-      @apply opacity-75;
-    }
-  }
+  @apply font-ui text-3xl tracking-wide lowercase font-bold;
 }

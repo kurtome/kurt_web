@@ -1,8 +1,7 @@
 <div class="">
-  <h2 class="ui-header mb-2">About Me</h2>
   <p>
     I'm a Minneapolis born nerd, currently stuck in Brooklyn
-    working in as a software developer. If you're interested in my
+    working as a software developer. If you're interested in my
     professional work, checkout my <a href="/résumé">résumé</a>.
   </p>
   <br>
@@ -14,13 +13,13 @@
   <br>
   <h2 class="ui-header mb-2">Find Me</h2>
   <p>
-    On GitHub: <a class="font-code" href="https://github.com/kurtome" target="_blank">kurtome</a>
+    GitHub: <a href="https://github.com/kurtome" target="_blank">kurtome</a>
   </p>
   <p>
-    On Twitter: <a class="font-code" href="https://twitter.com/kurtome" target="_blank">@kurtome</a>
+    Twitter: <a href="https://twitter.com/kurtome" target="_blank">@kurtome</a>
   </p>
   <p>
-    You can email me: &nbsp;<span class="font-code">kurt@melby.me</span>
+    Email: <span>kurt@melby.me</span>
   </p>
   <h2 class="ui-header mt-6 mb-2">Photo</h2>
   <div class="flex items-center justify-between">

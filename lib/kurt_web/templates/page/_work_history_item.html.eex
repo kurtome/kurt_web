@@ -1,13 +1,13 @@
-<h3 class="font-bold">
+<h3 class="font-bold text-lg">
   <span class=""><%= @item.name %></span>
-  <span class="ml-1  text-sm sub-header"><%= @item.duration %></span>
+  <span class="ml-1 opacity-50"><%= @item.duration %></span>
 </h3>
 <%= for section <- @item.sections do %>
-  <p class="text-sm sub-header">
+  <p class="italic opacity-50">
     <%= section.head %>
   </p>
   <%= for line <- section.lines do %>
-    <p class="mb-2 text-sm">
+    <p class="mb-2">
       <%= line %>
     </p>
   <% end %>
