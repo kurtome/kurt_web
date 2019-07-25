@@ -1,5 +1,12 @@
 <div>
-  <h2 class="ui-header">Professional Experience</h2>
+  <p class="text-sm">
+    I'm a polygot programmer and a bit of a jack-of-all-trades. I've done lots and lots of
+    backend and frontend web server programming in Java, Scala, Elixir and Python.
+    Additionally I've done worked on "big data" pipelines, Android apps, and Unity games.
+    I also know enough Javascript to know how to get things done, how to avoid the pitfalls
+    and to know I don't love it.
+  </p>
+  <h2 class="mt-4 ui-header">Professional Experience</h2>
   <div class="mt-4">
     <%= render(
       __MODULE__,
