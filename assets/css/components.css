@@ -57,7 +57,7 @@ p {
 }
 
 .ui-header {
-  @apply font-ui text-lg tracking-wide uppercase font-bold;
+  @apply font-ui text-2xl tracking-wide lowercase font-bold;
 }
 
 .sub-header {
