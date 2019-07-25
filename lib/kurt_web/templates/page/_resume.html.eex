@@ -1,13 +1,18 @@
 <div>
-  <h2 class="font-title text-xl">PROFESSIONAL EXPERIENCE</h2>
+  <h2 class="ui-header">Professional Experience</h2>
   <div class="mt-4">
     <%= render(
       __MODULE__,
       "_work_history_item.html",
       item: %{
         name: "Serial Box",
-        sub_head: "2019 - current, Senior Software Engineer",
-        lines: []
+        duration: "2019 - Current",
+        sections: [
+          %{
+            head: "Senior Fullstack Developer",
+            lines: []
+          }
+        ]
       }
     ) %>
   </div>
@@ -17,19 +22,24 @@
     "_work_history_item.html",
     item: %{
       name: "Gimlet (and Spotify)",
-      sub_head: "2​018 - 2019, Lead Software Engineer",
-      lines: [
-        """
-        Built and launched a brand new public website and internal
-        CMS from the ground up using modern web tools like
-        Phoenix Framework, Stimulus.js and Bulma CSS.
-        """,
-        """
-        Engineered a data warehouse solution for analyzing our hundreds of
-        millions of listener download logs using BigQuery SQL and Periscope Data
-        to create performance tracking and audience insights dashboards
-        used across company.
-        """
+      duration: "2018 - 2019",
+      sections: [
+        %{
+          head: "Lead Software Engineer",
+          lines: [
+            """
+            Built and launched a brand new public website and internal
+            CMS from the ground up using modern web tools like
+            Phoenix Framework, Stimulus.js and Bulma CSS.
+            """,
+            """
+            Engineered a data warehouse solution for analyzing our hundreds of
+            millions of listener download logs using BigQuery SQL and Periscope Data
+            to create performance tracking and audience insights dashboards
+            used across company.
+            """
+          ]
+        }
       ]
     }
   ) %>
@@ -40,15 +50,27 @@
       "_work_history_item.html",
       item: %{
         name: "Google",
-        sub_head: "2015 - 2018, Software Engineer",
-        lines: [
-          """
-          Android app development on Google Lens, including working with ML models on device
-          and custom UI prototyping.
-          """,
-          """
-          Server and data pipeline development on Google Play Books.
-          """
+        duration: "2015 - 2018",
+        sections: [
+          %{
+            head: "Android Software Engineer, Google Lens",
+            lines: [
+              """
+              Android app development on Google Lens, including working with ML models on device
+              and custom UI prototyping.
+              """
+            ]
+          },
+          %{
+            head: "Server Software Engineer, Google Play Books",
+            lines: [
+              """
+              Server and data pipeline development implenting new feartures like book series and 
+              improved book discovery by surfacing book related news articles and Youtube videos in
+              the mobile app.
+              """
+            ]
+          }
         ]
       }
     ) %>
@@ -59,12 +81,17 @@
       "_work_history_item.html",
       item: %{
         name: "Oyster Books",
-        sub_head: "2014 - 2015, Server Software Engineer",
-        lines: [
-          """
-          Built a data ingestion pipeline for all incoming book data from major publishers.
-          Maintenance and feature worker on Django servers and Postgres database.
-          """
+        duration: "2014 - 2015",
+        sections: [
+          %{
+            head: "Server Software Engineer",
+            lines: [
+              """
+              Built a data ingestion pipeline for all incoming book data from major publishers.
+              Maintenance and feature worker on Django servers and Postgres database.
+              """
+            ]
+          }
         ]
       }
     ) %>
@@ -75,12 +102,35 @@
       "_work_history_item.html",
       item: %{
         name: "Yodle Inc.",
-        sub_head: "2012-2014, Lead Software Engineer",
-        lines: [
-          """
-          Promoted to technical lead for a small team doing fullstack feature work in Java, Scala
-          and Angular web development on a microservices architecture.
-          """
+        duration: "2012 - 2014",
+        sections: [
+          %{
+            head: "Lead Software Engineer",
+            lines: [
+              """
+              Promoted to technical lead for a small team doing fullstack feature work in Java, Scala
+              and Angular web development on a microservices architecture.
+              """
+            ]
+          },
+          %{
+            head: "Senior Software Engineer",
+            lines: [
+              """
+              Developed features in a service oriented architecture using Java / Spring web servers
+              and PostgresDB.
+              """
+            ]
+          },
+          %{
+            head: "Software Engineer",
+            lines: [
+              """
+              Worked with on a small team to develop a complete sales productivity webapp customized
+              to Yodle's salesforce and workflow.
+              """
+            ]
+          }
         ]
       }
     ) %>
@@ -91,27 +141,33 @@
       "_work_history_item.html",
       item: %{
         name: "MicroEdge LLC​",
-        sub_head: "2010 - 2012, Junior Software Developer / Software Developer",
-        lines: [
-          """
-          ASd
-          """
+        duration: "2010 - 2012",
+        sections: [
+          %{
+            head: "Junior Software Developer",
+            lines: [
+              """
+              Was part of a large project to convert a large enterprise VB6 app
+              into a modern Windows application using C# and WPF.
+              """
+            ]
+          }
         ]
       }
     ) %>
   </div>
-  <h2 class="mt-8 font-title text-xl">EDUCATION</h2>
-  <h3 class="mt-2 font-bold">
+  <h2 class="mt-8 ui-header">EDUCATION</h2>
+  <h3 class="mt-4 font-bold">
     University of Minnesota - Twin Cities, Institute of Technology
   </h3>
   <p class="text-sm">
-    Graduated 2010<br>
+    <span class="sub-header"> Graduated 2010</span><br>
     Bachelor of Science in Computer Science, Focus on Artificial Intelligence
   </p>
-  <h3 class="mt-2 font-bold">
+  <h3 class="mt-4 font-bold">
     Hong Kong University of Science and Technology
   </h3>
-  <p class="text-sm">
+  <p class="text-sm sub-header">
     Spring 2009 exchange
   </p>
 </div>

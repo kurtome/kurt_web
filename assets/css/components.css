@@ -39,3 +39,11 @@ body, html {
     }
   }
 }
+
+.ui-header {
+  @apply font-ui text-lg tracking-wide uppercase;
+}
+
+.sub-header {
+  @apply italic opacity-50;
+}
