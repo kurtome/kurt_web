@@ -1,4 +1,4 @@
-<h3 class="font-bold text-lg">
+<h3 class="text-lg font-bold tracking-wide">
   <span class=""><%= @item.name %></span>
   <span class="ml-1 opacity-50"><%= @item.duration %></span>
 </h3>

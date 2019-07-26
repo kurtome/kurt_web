@@ -1,11 +1,11 @@
 <div class="block md:flex align-stretch w-full min-h-screen p-4 md:p-8">
-  <div class="flex-1 border-r-2 border-black md:border-0">
+  <div class="flex-1 h-full border-r-2 border-black-a25 md:border-0">
     <h1 class="font-title text-5xl md:text-5xl text-right leading-none tracking-tight mr-4 md:mr-8">
       <a href="/">
         Kurtis Melby
       </a>
     </h1>
-    <div class="mt-4">
+    <div class="md:mt-2">
       <div class="flex justify-end">
         <ul class="menu">
           <li class="<%= not_selected_css_class(@conn, "/whoami", "hidden md:inline") %>" >
@@ -33,12 +33,17 @@
     </div>
   </div>
   <div class="">
-    <div class="hidden md:block h-full w-1 bg-black"></div>
+    <div class="hidden md:block h-full border-l border-r border-black-a25"></div>
   </div>
-  <div class="flex-1 md:block">
+  <div class="flex-1">
     <%# <h1 class="font-title text-5xl md:text-5xl text-center md:text-left leading-none tracking-tight ml-4 md:ml-8 opacity-0">
       Kurtis Melby
     </h1> %>
+    <h1 class="mirror invisible md:visible font-title text-5xl md:text-5xl text-right leading-none tracking-tight ml-4 md:ml-8 opacity-25">
+      <a href="/">
+        Kurtis Melby
+      </a>
+    </h1>
     <div class="p-4 md:p-8 max-w-md">
       <%= if assigns[:content_template] do %>
         <%= render(__MODULE__, @content_template, assigns) %>

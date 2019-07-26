@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="shortcut icon" href="/images/favicon/favicon-32x32.png" type="image/x-icon">
     <title>Kurtis Melby</title>
+    <meta content="Kurtis Melby" property="og:title">
+    <meta content="Kurtis Melby" name="twitter:title">
+    <meta content="A Minneapolis born nerd, currently stuck in Brooklyn working as a software developer." property="og:description">
+    <meta content="A Minneapolis born nerd, currently stuck in Brooklyn working as a software developer." name="twitter:description">
+    <meta content="A Minneapolis born nerd, currently stuck in Brooklyn working as a software developer." name="description">
     <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>"/>
   </head>
   <body>

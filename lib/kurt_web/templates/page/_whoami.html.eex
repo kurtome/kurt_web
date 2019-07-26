@@ -10,8 +10,7 @@
     in video game creation. When I'm not being a nerd for work I am also a
     nerd for fun.
   </p>
-  <br>
-  <h2 class="ui-header mb-2">Find Me</h2>
+  <h2 class="ui-header mt-10 mb-2">Find Me</h2>
   <p>
     GitHub: <a href="https://github.com/kurtome" target="_blank">kurtome</a>
   </p>
@@ -21,7 +20,7 @@
   <p>
     Email: <span>kurt@melby.me</span>
   </p>
-  <h2 class="ui-header mt-6 mb-2">Photo</h2>
+  <h2 class="ui-header mt-10 mb-2">Photo</h2>
   <div class="flex items-center justify-between">
     <p >that me</p>
     <p >&rarr;</p>

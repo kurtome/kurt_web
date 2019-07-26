@@ -43,8 +43,7 @@ h2, h3, h4 {
 
 
     a {
-      @apply block font-title lowercase text-2xl tracking-wider text-right;
-
+      @apply block font-title uppercase text-xl tracking-wider text-right;
 
       &:before {
         transition: opacity 300ms ease-in-out;
@@ -69,5 +68,13 @@ h2, h3, h4 {
 }
 
 .ui-header {
-  @apply font-ui text-3xl tracking-wide lowercase font-bold;
+  @apply font-ui text-xl tracking-wide uppercase;
+
+  @screen md {
+    @apply text-xl;
+  }
+}
+
+.mirror {
+  transform: scale(-1, 1);
 }
