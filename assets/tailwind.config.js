@@ -1,20 +1,23 @@
 // tailwind.config.js
+const { colors } = require('tailwindcss/defaultTheme')
+
 module.exports = {
   theme: {
     fontFamily: {
       'title': ['Averia Serif Libre', 'serif'],
-      'ui': ['Averia Serif Libre', 'serif'],
+      'ui': ['Roboto Slab', 'serif'],
       'body': ['Roboto Slab', 'sans-serif'],
       'code': ['Roboto Mono', 'sans-serif']
     },
     extend: {
       colors: {
-        'black-a25': 'rgba(0, 0, 0, 0.25)',
-        'black-a50': 'rgba(0, 0, 0, 0.5)',
-        'black-a75': 'rgba(0, 0, 0, 0.75)'
+        'body': colors.orange['100'],
+        'body-contrast': colors.blue['100']
       }
     }
   },
-  variants: {},
+  variants: {
+    opacity: ['responsive', 'hover']
+  },
   plugins: [],
 }

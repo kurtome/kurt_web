@@ -1,11 +1,14 @@
+html {
+  @apply bg-white;
+}
 
 body, html {
-  @apply bg-orange-100 font-body;
+  @apply bg-body font-body;
 }
 
 p {
   a {
-    @apply text-teal-700;
+    @apply text-blue-700;
     transition: opacity 300ms ease-in-out;
     &:hover {
       transition: opacity 300ms ease-in-out;
@@ -17,7 +20,7 @@ p {
 h2, h3, h4 {
 
   a {
-    @apply text-teal-700;
+    @apply text-blue-700;
     transition: opacity 300ms ease-in-out;
     &:hover {
       transition: opacity 300ms ease-in-out;
@@ -27,27 +30,27 @@ h2, h3, h4 {
 }
 
 .menu {
-  @apply flex flex-col justify-between;
+  @apply flex flex-col justify-between w-full;
 
   @screen md {
-    @apply h-64;
+    @apply h-64 w-auto;
   }
 
   li {
     position: relative;
 
-    @apply px-4 py-1 mt-5;
-    @screen md {
-      @apply px-8 py-2;
-    }
+    @apply mt-5;
 
 
     a {
-      @apply block font-title uppercase text-xl tracking-wider text-right;
+      @apply block relative px-4 py-1  font-title uppercase text-xl tracking-wider text-right;
+    @screen md {
+      @apply px-8 py-2;
+    }
+        z-index: 1;
 
       &:before {
         transition: opacity 300ms ease-in-out;
-        background: linear-gradient(90deg, transparent, color-mod(theme('colors.teal.400') a(30%)));
         content: '';
         display: block;
         height: 100%;
@@ -56,6 +59,12 @@ h2, h3, h4 {
         left: 0;
         opacity: 0;
         width: 100%;
+        z-index: -1;
+        background: linear-gradient(180deg, transparent, color-mod(theme('colors.blue.100') a(100%)));
+
+        @screen md {
+              background: linear-gradient(90deg, transparent, color-mod(theme('colors.blue.100') a(100%)));
+        }
       }
       &:hover, &.selected {
         &:before {
@@ -68,13 +77,17 @@ h2, h3, h4 {
 }
 
 .ui-header {
-  @apply font-ui text-xl tracking-wide uppercase;
-
-  @screen md {
-    @apply text-xl;
-  }
+  @apply font-ui font-extrabold text-lg tracking-wide uppercase;
 }
 
 .mirror {
   transform: scale(-1, 1);
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+.fade-in {
+  animation: fadein 2s;
 }
