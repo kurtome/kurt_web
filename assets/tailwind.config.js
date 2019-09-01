@@ -11,8 +11,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        'body': colors.orange['100'],
-        'body-contrast': colors.blue['100']
+        'body': colors.orange['200'],
+        'body-contrast': colors.blue['200']
       }
     }
   },

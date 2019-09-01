@@ -34,10 +34,10 @@
       </div>
     </div>
   </div>
-  <div class="">
-    <div class="hidden md:block h-full border-r border-l border-gray-100"></div>
+  <div class="hidden">
+    <div class="hidden md:block h-full border-r border-l border-body-contrast opacity-75"></div>
   </div>
-  <div class="flex-1 content-container sticky top-0 bg-blue-100">
+  <div class="flex-1 content-container sticky top-0 bg-body-contrast">
     <div class="<%= if(@conn.request_path == "/", do: "animated flipInX fadeIn delay-1s slower") %>">
       <h1 class="mirror hidden md:block font-title text-5xl md:text-5xl text-right leading-none tracking-tight ml-4 md:ml-8 mt-8 opacity-25">
         <a href="/">
@@ -51,7 +51,7 @@
           <%= render(__MODULE__, @content_template, assigns) %>
         </div>
         <div class="md:hidden mt-12 p-4">
-          <a href="/" class="text-blue-700 opacity-75 font-ui tracking-wide">
+          <a href="/" class="text-blue-900 opacity-75 font-ui tracking-wide">
             &lt;&nbsp; back
           </a>
         </div>

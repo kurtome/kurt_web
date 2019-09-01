@@ -60,10 +60,10 @@ h2, h3, h4 {
         opacity: 0;
         width: 100%;
         z-index: -1;
-        background: linear-gradient(180deg, transparent, color-mod(theme('colors.blue.100') a(100%)));
+        background: linear-gradient(180deg, transparent, color-mod(theme('colors.body-contrast') a(100%)));
 
         @screen md {
-              background: linear-gradient(90deg, transparent, color-mod(theme('colors.blue.100') a(100%)));
+              background: linear-gradient(90deg, transparent, color-mod(theme('colors.body-contrast') a(100%)));
         }
       }
       &:hover, &.selected {
