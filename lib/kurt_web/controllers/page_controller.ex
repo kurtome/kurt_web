@@ -5,12 +5,12 @@ defmodule KurtWeb.PageController do
     "pink",
     "red",
     "green",
-    "yellow",
+    # "yellow",
     "purple",
-    "gray",
+    # "gray",
     "orange",
     "teal",
-    "blue",
+    # "blue",
     "indigo"
   ]
 
