@@ -38,7 +38,7 @@ h2, h3, h4 {
 
 
     a {
-      @apply block relative px-4 py-1 font-title font-bold lowercase text-sm tracking-wider text-right;
+      @apply block relative px-4 py-1 font-title font-medium lowercase text-sm tracking-wider text-right;
 
       @screen md {
         @apply px-8 py-2 text-xl;
@@ -59,6 +59,8 @@ h2, h3, h4 {
         }
       }
       &:hover, &.selected {
+        @apply font-bold;
+
         &:before {
           opacity: 1;
           transition: opacity 300ms ease-in-out;
