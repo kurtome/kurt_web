@@ -8,6 +8,8 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
     // etc.
   ],
 
+  whitelistPatterns: [/^site-color-/],
+
   // Include any special characters you're using in this regular expression
   defaultExtractor: content => content.match(/[A-Za-z0-9-_:/]+/g) || []
 

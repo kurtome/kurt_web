@@ -1,6 +1,6 @@
 <div class="">
-  <p class="mb-10">Things I work on things other than work, occasionally.</p>
-  <h2 class="mb-4 ui-header">Video Games</h2>
+  <p class="mb-12">Things I work on things other than work, occasionally.</p>
+  <h2 class="mb-8 ui-header">Video Games</h2>
   <%= render(__MODULE__, "_project_list.html", projects: [
     %{
       name: "dayrise",
@@ -60,7 +60,7 @@
       """
     }
   ]) %>
-  <h2 class="mt-10 mb-4 ui-header">Other</h2>
+  <h2 class="mt-12 mb-4 ui-header">Other</h2>
   <%= render(__MODULE__, "_project_list.html", projects: [
     %{
       name: "kurt.melby.me",

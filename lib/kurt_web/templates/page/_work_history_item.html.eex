@@ -1,13 +1,13 @@
-<h3 class="font-bold tracking-wide">
+<h3 class="uppercase tracking-wide mb-1">
   <span class=""><%= @item.name %></span>
-  <span class="ml-1 opacity-50"><%= @item.duration %></span>
+  <span class="ml-2 opacity-50"><%= @item.duration %></span>
 </h3>
 <%= for section <- @item.sections do %>
-  <p class="italic opacity-50">
+  <p class="opacity-50">
     <%= section.head %>
   </p>
   <%= for line <- section.lines do %>
-    <p class="mb-2">
+    <p class="mb-4">
       <%= line %>
     </p>
   <% end %>

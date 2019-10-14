@@ -3,12 +3,12 @@ html {
 }
 
 body, html {
-  @apply bg-body font-body;
+  @apply bg-body font-body font-light;
 }
 
 p {
   a {
-    @apply text-blue-700;
+    @apply font-light underline;
     transition: opacity 300ms ease-in-out;
     &:hover {
       transition: opacity 300ms ease-in-out;
@@ -18,9 +18,8 @@ p {
 }
 
 h2, h3, h4 {
-
   a {
-    @apply text-blue-700;
+    @apply underline;
     transition: opacity 300ms ease-in-out;
     &:hover {
       transition: opacity 300ms ease-in-out;
@@ -32,10 +31,6 @@ h2, h3, h4 {
 .menu {
   @apply flex flex-col justify-between w-full;
 
-  @screen md {
-    @apply h-64 w-auto;
-  }
-
   li {
     position: relative;
 
@@ -43,27 +38,24 @@ h2, h3, h4 {
 
 
     a {
-      @apply block relative px-4 py-1  font-title uppercase text-xl tracking-wider text-right;
-    @screen md {
-      @apply px-8 py-2;
-    }
-        z-index: 1;
+      @apply block relative px-4 py-1 font-title font-bold lowercase text-sm tracking-wider text-right;
+
+      @screen md {
+        @apply px-8 py-2 text-xl;
+      }
+      z-index: 1;
 
       &:before {
         transition: opacity 300ms ease-in-out;
-        content: '';
-        display: block;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
+        content: '→';
+        color: theme('colors.purple.300');
+        margin-right: 0.1em;
         opacity: 0;
-        width: 100%;
         z-index: -1;
-        background: linear-gradient(180deg, transparent, color-mod(theme('colors.body-contrast') a(100%)));
+        /* background: linear-gradient(180deg, transparent, color-mod(theme('colors.body-contrast') a(100%))); */
 
         @screen md {
-              background: linear-gradient(90deg, transparent, color-mod(theme('colors.body-contrast') a(100%)));
+              /* background: linear-gradient(90deg, transparent, color-mod(theme('colors.body-contrast') a(100%))); */
         }
       }
       &:hover, &.selected {
@@ -76,8 +68,16 @@ h2, h3, h4 {
   }
 }
 
+.site-title {
+  @apply font-title font-black tracking-wide text-4xl leading-none mr-4 mt-8;
+
+  @screen md {
+    @apply text-5xl mr-8;
+  }
+}
+
 .ui-header {
-  @apply font-ui font-extrabold text-lg tracking-wide uppercase;
+  @apply font-ui font-semibold text-lg tracking-wide uppercase;
 }
 
 .mirror {
@@ -90,4 +90,110 @@ h2, h3, h4 {
 }
 .fade-in {
   animation: fadein 2s;
+}
+
+.filter-grayscale {
+  filter: grayscale(100%);
+}
+
+
+.site-color-purple {
+  .bg-site-color {
+    background: theme('colors.purple.200');
+  }
+  .menu li a {
+    &:before {
+      color: theme('colors.purple.300');
+    }
+  }
+}
+.site-color-red {
+  .bg-site-color {
+    background: theme('colors.red.200');
+  }
+  .menu li a {
+    &:before {
+      color: theme('colors.red.300');
+    }
+  }
+}
+.site-color-green {
+  .bg-site-color {
+    background: theme('colors.green.200');
+  }
+  .menu li a {
+    &:before {
+      color: theme('colors.green.300');
+    }
+  }
+}
+.site-color-blue {
+  .bg-site-color {
+    background: theme('colors.blue.200');
+  }
+  .menu li a {
+    &:before {
+      color: theme('colors.blue.300');
+    }
+  }
+}
+.site-color-indigo {
+  .bg-site-color {
+    background: theme('colors.indigo.200');
+  }
+  .menu li a {
+    &:before {
+      color: theme('colors.indigo.300');
+    }
+  }
+}
+.site-color-teal {
+  .bg-site-color {
+    background: theme('colors.teal.200');
+  }
+  .menu li a {
+    &:before {
+      color: theme('colors.teal.300');
+    }
+  }
+}
+.site-color-pink {
+  .bg-site-color {
+    background: theme('colors.pink.200');
+  }
+  .menu li a {
+    &:before {
+      color: theme('colors.pink.300');
+    }
+  }
+}
+.site-color-gray {
+  .bg-site-color {
+    background: theme('colors.gray.200');
+  }
+  .menu li a {
+    &:before {
+      color: theme('colors.gray.300');
+    }
+  }
+}
+.site-color-yellow {
+  .bg-site-color {
+    background: theme('colors.yellow.200');
+  }
+  .menu li a {
+    &:before {
+      color: theme('colors.yellow.400');
+    }
+  }
+}
+.site-color-orange {
+  .bg-site-color {
+    background: theme('colors.orange.200');
+  }
+  .menu li a {
+    &:before {
+      color: theme('colors.orange.300');
+    }
+  }
 }

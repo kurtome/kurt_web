@@ -17,6 +17,7 @@ defmodule KurtWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+    get "/color-rand", PageController, :color_rand
     get "/:slug", PageController, :index
   end
 

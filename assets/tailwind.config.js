@@ -4,15 +4,15 @@ const { colors } = require('tailwindcss/defaultTheme')
 module.exports = {
   theme: {
     fontFamily: {
-      'title': ['Averia Serif Libre', 'serif'],
-      'ui': ['Roboto Slab', 'serif'],
-      'body': ['Roboto Slab', 'sans-serif'],
-      'code': ['Roboto Mono', 'sans-serif']
+      'title': ['Lato', 'serif'],
+      'ui': ['Lato', 'serif'],
+      'body': ['Lato', 'sans-serif'],
+      'code': ['Lato', 'sans-serif']
     },
     extend: {
       colors: {
-        'body': colors.orange['200'],
-        'body-contrast': colors.blue['200']
+        'body': colors.white,
+        'body-contrast': colors.purple['200']
       }
     }
   },
